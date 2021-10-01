@@ -1,0 +1,18 @@
+Package: KMtoIPD
+Title: Reconstruct Individual Patient Data from Kaplan-Meier Survival Curves
+Version: 1.0.0
+Authors@R: 
+    person(given = "Basia",
+           family = "Rogula",
+           role = c("aut", "cre"),
+           email = "brogula@broadstreetheor.com",
+           comment = c(ORCID = "0000-0002-2115-8275"))
+Description: Reconstruct individual patient data from Kaplan-Meier survival curves. 
+	Inputs include the total sample size, the digitized coordinates of 
+	drops in survival, and digitized times of censoring. The output is a 
+	data frame with columns for survival time and indicator of event.
+License: GPL-2
+LazyData: true
+Imports:
+	survival
+RoxygenNote: 7.1.1
