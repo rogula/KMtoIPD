@@ -8,3 +8,5 @@
 
 # User-specific files
 .Ruserdata
+
+.Rbuildignore
